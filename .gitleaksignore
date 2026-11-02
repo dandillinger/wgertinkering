@@ -1,0 +1,14 @@
+# gitleaks false positives, triaged in projects migration/BATCH.md note 9 (projects US-133).
+# Format: commit:file:rule:line. No secret values.
+25f0e6094ff36c410a7ddff10e47a6bd242af650:wger/software/templates/api.html:jwt:33
+25f0e6094ff36c410a7ddff10e47a6bd242af650:wger/software/templates/api.html:jwt:34
+25f0e6094ff36c410a7ddff10e47a6bd242af650:wger/software/templates/api.html:jwt:46
+25f0e6094ff36c410a7ddff10e47a6bd242af650:wger/software/templates/api.html:jwt:50
+287c2bb04d9eb82e736e0a882dbd3cf50c2e68e1:wger/manager/templates/user/api_key.html:generic-api-key:22
+3547d34094de9efd816d01717ddbcd9addfb4a51:wger/manager/tests/test_pdf.py:generic-api-key:140
+3547d34094de9efd816d01717ddbcd9addfb4a51:wger/manager/tests/test_pdf.py:generic-api-key:53
+5cf8b40f21943ced60f414107b566030a380ad8d:wger/manager/tests/test_schedule.py:generic-api-key:452
+6926b59e4f0f2acf6d535b72dba8a11081f04cab:wger/manager/templates/user/api_key.html:generic-api-key:19
+6926b59e4f0f2acf6d535b72dba8a11081f04cab:wger/manager/templates/user/api_key.html:generic-api-key:22
+fced1c7826bb28a52603cfd96bd674530836d6c7:wger/manager/tests/test_ical.py:generic-api-key:166
+fced1c7826bb28a52603cfd96bd674530836d6c7:wger/manager/tests/test_ical.py:generic-api-key:79
